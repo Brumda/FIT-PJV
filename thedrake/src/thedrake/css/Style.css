@@ -1,0 +1,27 @@
+.mainMenu {
+    -fx-background-image: url("./../../assets/mainMenu.jpg");
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+
+#game {
+    -fx-background-image: url("../../assets/gameBackground.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+
+.button {
+    -fx-background-color: #8B4513;
+    -fx-background-radius: 30;
+    -fx-border-color: #CD853F;
+    -fx-border-radius: 30;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #43c9fc;
+}
+
+.outline.label .text {
+    -fx-effect: dropshadow(gaussian, black, 2, 1.5, 0, 0);
+}
